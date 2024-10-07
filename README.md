@@ -68,3 +68,49 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+About this Project.
+
+# One-Time Pad Encryption Project
+
+A **React.js** project implementing the **One-Time Pad (OTP)** encryption algorithm, which provides theoretically unbreakable encryption when used correctly.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [How One-Time Pad Works](#how-one-time-pad-works)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+The **One-Time Pad** is an encryption technique that cannot be cracked if used correctly. It requires the use of a single-use pre-shared key (or pad) that is as long as the message being sent. This React.js application demonstrates how the One-Time Pad can be applied for secure communication between two parties.
+
+## Features
+
+- Encrypt a plaintext message using a randomly generated pad.
+- Decrypt a ciphertext back into plaintext using the same pad.
+- User-friendly UI for inputting messages and displaying results.
+- Validation checks to ensure key and message length are equal.
+
+## Getting Started
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/yourusername/one-time-pad-react.git
